@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>スライドショー</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+　　<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+　　<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/57c3a5876a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="title">
+      <h1><font color="blue">クレヨン<font color="red">しんちゃん</h1>
+      <h2><font color="navy">野原一家・カスカベ防衛隊紹介</font></h2>
+    </div>
+    <div class="main">
+      <button type="button" onclick="left()"><i class="fa-solid fa-backward-step"></i><</button>
+      <img src="https://www.tv-asahi.co.jp/shinchan/character/img/01.png">
+      <button type="button" onclick="right()">><i class="fa-solid fa-forward-step"></i></button>
+    </div>
+    <div class="control">
+      <button onclick="play()"><i class="fas fa-play"></i></button>
+      <button onclick="stop()"><i class="fa-solid fa-stop"></i></button>
+      <button onclick="reset()"><i class="fa-solid fa-arrow-rotate-left"></i></button>
+    </div>
+  <script src="js/slidShow.js"></script>
+  <body bgcolor="yellow">
+
+    <!-- <script type="text/javascript"> -->
+  <!-- //  function right(){ -->
+  <!-- //    let mainElement = document.querySelection("div.main>img"); -->
+      <!-- // mainElement.setAttribute("src","https://www.waseda.jp/top/assets/uploads/2014/03/maejima-360x270.jpg");} -->
+      <!-- // function play(){ -->
+        <!-- // right(); -->
+        <!-- // timer = setTimeout(function(){ -->
+          <!-- // play(); -->
+        <!-- // },200); -->
+
+  </body>
+</html>
